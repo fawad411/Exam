@@ -1,4 +1,4 @@
-package sp17_bse_017;
+package Composite_pattern;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,13 +7,12 @@ public class HTMLParentElement extends HTMLTag {
 	private String tagName;
 	private String startTag; 
 	private String endTag;
-	private List<HTMLTag>childrenTag;
+	String childrenTag;
 	
 	public HTMLParentElement(String tagName){
 		this.tagName = tagName;
 		this.startTag = "";
 		this.endTag = "";
-		this.childrenTag = new ArrayList<>();
 	}
 	public String getTagName() {
 		return tagName;
@@ -36,7 +35,7 @@ public class HTMLParentElement extends HTMLTag {
 	}
 
 	public List<HTMLTag>getChildren(){
-		return addChildren;
+		return childrenadd;
 	}
 
 	public void generateHtml() {

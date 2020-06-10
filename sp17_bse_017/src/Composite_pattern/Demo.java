@@ -1,4 +1,4 @@
-package sp17_bse_017;
+package Composite_pattern;
 
 public class Demo {
 

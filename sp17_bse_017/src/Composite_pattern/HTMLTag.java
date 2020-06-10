@@ -1,4 +1,4 @@
-package sp17_bse_017;
+package Composite_pattern;
 import java.util.List;
 
 public abstract class HTMLTag {
@@ -17,9 +17,7 @@ public abstract class HTMLTag {
 	public void removeChildTag(HTMLTag htmlTag){
 
 	}
-	public List<HTMLTag>getChildren(){
-		throw new UnsupportedOperationException("unstopped");
-	}
+	
 	public abstract void generateHtml();
 	
 }
