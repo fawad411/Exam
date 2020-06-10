@@ -36,7 +36,7 @@ public class HTMLParentElement extends HTMLTag {
 	}
 
 	public List<HTMLTag>getChildren(){
-		return childrenTag;
+		return addChildren;
 	}
 
 	public void generateHtml() {
